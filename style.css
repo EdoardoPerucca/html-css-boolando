@@ -60,3 +60,27 @@ body {
     color: white;
 }
 
+main {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+#img-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#img-1 {
+    min-width: 290px;
+    height: 400px;
+    background-color: #ff6900;
+    border: 2px solid red; 
+}
+
+
+
+
