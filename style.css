@@ -1,0 +1,62 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+#nav-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    height: 50px;
+    background-color: #ff6900;
+}
+
+#nav-inner ul {
+    list-style-type: none;
+}
+
+#links-gender {
+    display: flex;
+    width: 150px;
+    height: 50px;  
+    text-align: center;  
+}
+
+#links-gender ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;  
+}
+
+#links-gender ul li {
+    display: flex;
+    align-items: center;  
+    color: white;
+}
+
+#logo {
+    width: 100px;
+    height: 50px;
+    background-image: url('img/boolean-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#links-top-right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 150px;
+    height: 50px;
+    gap: 5px;
+    color: white;
+}
+
