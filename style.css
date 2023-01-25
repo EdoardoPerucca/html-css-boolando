@@ -13,13 +13,15 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: auto;
+    width: 900;
     height: 50px;
     background-color: #ff6900;
+    
 }
 
 #nav-inner ul {
     list-style-type: none;
+    
 }
 
 #links-gender {
@@ -72,14 +74,142 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
+
+    
+}
+
+ 
+
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 200px;
+    
 }
 
 #img-1 {
+    display: flex;
     min-width: 290px;
     height: 400px;
-    background-color: #ff6900;
-    border: 2px solid red; 
+    background-image: url('img/1.webp');
+    background-size: 290px auto;
+    background-position: bottom;
+
 }
+
+
+#img-2 {
+    display: flex;
+    min-width: 290px;
+    height: 400px;
+    background-image: url('img/2.webp');
+    background-size: 290px auto;
+    background-position: bottom;
+
+}
+
+#img-3 {
+    display: flex;
+    min-width: 290px;
+    height: 400px;
+    background-image: url('img/3.webp');
+    background-size: 290px auto;
+    background-position: bottom;
+
+}
+
+#img-4 {
+    display: flex;
+    min-width: 290px;
+    height: 400px;
+    background-image: url('img/4.webp');
+    background-size: 290px auto;
+    background-position: bottom;
+
+}
+
+#img-5 {
+    display: flex;
+    min-width: 290px;
+    height: 400px;
+    background-image: url('img/5.webp');
+    background-size: 290px auto;
+    background-position: bottom;
+
+}
+
+#img-6 {
+    display: flex;
+    min-width: 290px;
+    height: 400px;
+    background-image: url('img/6.webp');
+    background-size: 290px auto;
+    background-position: bottom;
+
+}
+
+#discount {
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    font-size: 0.7em;
+    color: white;
+    padding: 3px 3px;
+    position: relative;
+    top: -10px;
+    
+    
+}
+
+#sostenibilità {
+    width: 70px;
+    height: 20px;
+    background-color: green;
+    font-size: 0.7em;
+    color: white;
+    padding: 3px 3px;
+    position: relative;
+    top: -30px;
+    right: -40px;
+}
+
+.price-red {
+    color: red;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+#footer-inner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 10px;
+    margin-top: 20px;
+    
+    
+}
+
+#footer-right ul {
+    list-style-type: none;
+}
+
+#footer-right {
+    display: flex;
+    
+}
+
+
+
+#footer-left {
+    display: flex;
+}
+
 
 
 
